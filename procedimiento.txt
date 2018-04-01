@@ -80,3 +80,5 @@ Rama : Una rama en Git es simplemente un apuntador móvil apuntando a uno de los
 HEAD: indica donde nos encontramos en el historial
 
 git checkout <branch_name>: para cambiarse a la rama si la misma existe
+
+git branch: nos muestra la lista de ramas y en cual estamos
