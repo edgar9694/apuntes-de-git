@@ -39,3 +39,31 @@ git log --oneline: para ver los commits resumidos en una linea cada uno
 git log --graph: para ver los commits de cada una de las ramas
 
 git log --pretty=format:"%h - %an, %ar : %s": para darle un formato al historial de commits
+
+
+GIT DESDE CERO 04
+
+git commit --amend: Rehace la confirmacion. Este comando utiliza el área de preparación para la confirmación. Al final terminarás con una sola confirmación - la segunda confirmación reemplaza el resultado de la primera.
+
+git reset HEAD <file>: saca el archivo del area de preparacion.
+
+git checkout -- <file>: elimina las modificaciones que no han pasado al area de preparacion a un archivo
+
+git diff <hash commit1> <hash commit2>: para ver las diferencias entre dos commits
+
+git checkout <hash commit>: nos lleva el proyecto al estado de ese commit
+
+
+GIT DESDE CERO 04
+
+etiquetas: colocar etiquetas en puntos importantes del historial
+
+git tag: lista las etiquetas en orden alfabetico
+
+etiquetas ligeras: solo apunta a un commit y se crea como git tag <nombre de la etiqueta>
+
+etiqueta anotada: se guardan en la base de datos de git como objetos enteros, tienen checksum; contienen el  nombre del etiquetador, correo electronico y fecha; y tienen un mensaje asociado.
+
+git tag -a <nombre etiqueta> -m "mensaje de la etiqueta"
+
+git show <opcion> : muestra la etiqueta o el commit seleccionado
