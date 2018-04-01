@@ -40,6 +40,8 @@ git log --graph: para ver los commits de cada una de las ramas
 
 git log --pretty=format:"%h - %an, %ar : %s": para darle un formato al historial de commits
 
+git log --all: muestra todos los commits, ideal para cuando se hace checkout y para volver
+
 
 GIT DESDE CERO 04
 
