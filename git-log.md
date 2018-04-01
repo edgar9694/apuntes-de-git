@@ -16,6 +16,7 @@ Las banderas del comando `git log` se pueden usar juntas según son convenga, po
 
 `git log --oneline`
 Este comando nos muestra el historial en una sola línea por commit.
+aparte nos muestra el hash resumido.
 
 `git log --graph`
 muestra una linea con los commits de cada rama
