@@ -60,10 +60,10 @@ etiquetas: colocar etiquetas en puntos importantes del historial
 
 git tag: lista las etiquetas en orden alfabetico
 
-etiquetas ligeras: solo apunta a un commit y se crea como git tag <nombre de la etiqueta>
+etiquetas ligeras: solo apunta a un commit y se crea como git tag <nombre de la etiqueta>. las etiquetas ligeras apuntan a un commit solamente
 
 etiqueta anotada: se guardan en la base de datos de git como objetos enteros, tienen checksum; contienen el  nombre del etiquetador, correo electronico y fecha; y tienen un mensaje asociado.
 
-git tag -a <nombre etiqueta> -m "mensaje de la etiqueta"
+git tag -a <nombre_etiqueta> -m "mensaje de la etiqueta"
 
 git show <opcion> : muestra la etiqueta o el commit seleccionado
