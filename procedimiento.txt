@@ -82,3 +82,12 @@ HEAD: indica donde nos encontramos en el historial
 git checkout <branch_name>: para cambiarse a la rama si la misma existe
 
 git branch: nos muestra la lista de ramas y en cual estamos
+
+
+GIT DESDE CERO 07
+
+git merge <branch_name>: va a fusionar la rama que queramos con la rama en la que estamos actualmente
+
+cuando se elimina una rama solo le elimina el apuntador
+
+git branch -d nombre_rama: para eliminar una rama que ya haya sido fusionada
