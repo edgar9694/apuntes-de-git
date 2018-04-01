@@ -75,7 +75,7 @@ git tag -l "patron": opcion que muestra una lista de las etiquetas con el patron
 
 GIT DESDE CERO 06
 
-Rama : Una rama en Git es simplemente un apuntador móvil apuntando a uno de los commits.
+Rama : Una rama en Git es simplemente un apuntador móvil apuntando a uno de los commits. al momento de crear una rama esta apuntara al ultimo commit que se haya hecho
 
 HEAD: indica donde nos encontramos en el historial
 
