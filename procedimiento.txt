@@ -25,3 +25,8 @@ git log: para poder ver el historial de commits
 
 
 .gitignore: patrones de nombres de archivos que git ignorara "gitignore.io" pagina que genera dichos patrones
+
+
+GIT DESDE CERO 02
+
+git rm: para eliminar un archivo
