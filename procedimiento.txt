@@ -90,4 +90,8 @@ git merge <branch_name>: va a fusionar la rama que queramos con la rama en la qu
 
 cuando se elimina una rama solo le elimina el apuntador
 
-git branch -d nombre_rama: para eliminar una rama que ya haya sido fusionada
+git branch -d <branch_name>: para eliminar una rama que ya haya sido fusionada a la rama desde donde se ejecuta el comando de eliminacion.
+
+git branch -D <branch_name>: para elminar de manera forzosa la rama asi no se haya fusionado
+
+git branch --no-merged: Nos muestra cuáles ramas no han sido fusionadas a la rama actual.
