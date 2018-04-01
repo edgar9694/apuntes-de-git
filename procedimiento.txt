@@ -19,4 +19,6 @@ git status: para ver el estado del directorio.
 
 git diff: para ver la diferencia en un archivo cuando este ha sido modificado.
 
-git commit: para agregar al repositorio permanente.
+git commit: para agregar al repositorio git.
+
+git log: para poder ver el historial de commits
