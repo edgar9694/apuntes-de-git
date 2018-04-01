@@ -1,0 +1,22 @@
+GIT DESDE CERO 01
+
+git config : para configurar las variables de git como el usuario, el correo y el editor que saldra para los commits
+
+git <option> --help // git help <option>: para pedir ayuda de la opcion escogida, abrira una ventana en el navegador con la documentacion completa de esa opcion
+
+
+GIT DESDE CERO 02
+
+git init : para iniciar el repositorio basico y que crea la carpeta donde se archivaran los cambios.
+
+git add file_name: para agregar a la zona de preparacion.
+
+git add . : agrega todos los archivos que esten en seguimiento o no
+
+git add -A : se agregan todos los archivos que esten en seguimiento solamente
+
+git status: para ver el estado del directorio.
+
+git diff: para ver la diferencia en un archivo cuando este ha sido modificado.
+
+git commit: para agregar al repositorio permanente.
