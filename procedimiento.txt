@@ -22,3 +22,6 @@ git diff: para ver la diferencia en un archivo cuando este ha sido modificado.
 git commit: para agregar al repositorio git.
 
 git log: para poder ver el historial de commits
+
+
+.gitignore: patrones de nombres de archivos que git ignorara "gitignore.io" pagina que genera dichos patrones
