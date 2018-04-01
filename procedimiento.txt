@@ -95,3 +95,5 @@ git branch -d <branch_name>: para eliminar una rama que ya haya sido fusionada a
 git branch -D <branch_name>: para elminar de manera forzosa la rama asi no se haya fusionado
 
 git branch --no-merged: Nos muestra cuáles ramas no han sido fusionadas a la rama actual.
+
+git branch --merged: Nos muestra las ramas que han sido fusionadas a la rama actual.
