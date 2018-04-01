@@ -64,6 +64,8 @@ etiquetas ligeras: solo apunta a un commit y se crea como git tag <nombre de la 
 
 etiqueta anotada: se guardan en la base de datos de git como objetos enteros, tienen checksum; contienen el  nombre del etiquetador, correo electronico y fecha; y tienen un mensaje asociado.
 
-git tag -a <nombre_etiqueta> -m "mensaje de la etiqueta"
+git tag -a <nombre_etiqueta> -m "mensaje de la etiqueta" <hash_del_commit>
 
 git show <opcion> : muestra la etiqueta o el commit seleccionado
+
+git tag -l "patron": opcion que muestra una lista de las etiquetas con el patron especificado
