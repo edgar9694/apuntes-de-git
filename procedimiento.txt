@@ -99,3 +99,5 @@ git branch --no-merged: Nos muestra cuáles ramas no han sido fusionadas a la ra
 git branch --merged: Nos muestra las ramas que han sido fusionadas a la rama actual.
 
 git checkout -b <branch_name>: crea la rama y se mueve a ella
+
+GIT DESDE CERO 08
